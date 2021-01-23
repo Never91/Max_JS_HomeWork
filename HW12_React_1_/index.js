@@ -28,8 +28,8 @@ const people = [
  
 ///
  
- const sumMoney = people.reduce((acc, person) => 
-     acc + person.money, 0
+ const sumMoney = people.reduce((all, person) => 
+   all + person.money, all = 0
  );
  
  console.log(sumMoney);
